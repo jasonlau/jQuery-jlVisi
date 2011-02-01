@@ -32,8 +32,7 @@
             var obj = $(this);
 
     		return this.each(function() {
-              var tags = $(this).attr('rel').split(option.delimitor);
-              alert($(this).attr('rel'));   
+              var tags = $(this).attr('rel').split(option.delimitor);   
                 for(var i in tags){
                     var h = tags[i].split(option.hide_indicator);
                     if(h[1]) $(h[1]).hide();
