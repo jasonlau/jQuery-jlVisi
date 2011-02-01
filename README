@@ -31,7 +31,7 @@ The rel attribute holds a delimited list of objects to toggle
 visibility. Each object in the list is preceded by a symbol which
 indicates the visibility state of the object. For example, the hide
 indicator is the ! exclamation point and the show indicator is the
-* asterik.
+* asterisk.
 
 ==================================================================
 Example
